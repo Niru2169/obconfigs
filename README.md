@@ -1,0 +1,2 @@
+# obconfigs
+My Openbox Configuration
