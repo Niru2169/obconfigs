@@ -12,3 +12,4 @@ cp menu.xml ~/.config/openbox/menu.xml &&
 mkdir ~/.config/picom/ &&
 mkdir ~/.themes/ &&
 cp picom.conf ~/.config/picom/picom.conf &&
+cp Equilux-compact-Zorin ~/.themes/
