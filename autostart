@@ -19,11 +19,15 @@ feh --bg-fill ~/.bg.png
 pnmixer &
 compton &
 redshift -t 6500:3400 -l 12.7409:77.8253 &
-#flameshot &
-#lxpolkit &
+flameshot &
+lxpolkit &
 ulauncher --no-window-shadow &
 light-locker &
-#xfce4-clipman &
-#/snap/bin/ksuperkey &
-#/snap/bin/emote &
-tint2 &
+xfce4-clipman &
+/snap/bin/ksuperkey &
+/snap/bin/emote &
+
+#tint2 -c ~/.config/tint2/tint2rc_zorin2.tint2rc &
+tint2 -c ~/.config/tint2/tint2rc_toppanel.tint2rc &
+tint2 -c ~/.config/tint2/tint2rc_bottombar.tint2rc &
+
