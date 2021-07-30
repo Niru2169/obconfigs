@@ -10,3 +10,5 @@ run `install.sh`
 https://github.com/ZorinOS/zorin-desktop-themes - Zorin GTK Theme
 
 https://github.com/jonaburg/picom/ - Fork of Picom that I use
+
+Your wallpaper needs to be ~/.bg.png
