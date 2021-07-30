@@ -6,26 +6,33 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal emulator">
+<!--  <item label="Terminal emulator">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
-  </item>
+  </item> -->
   <item label="Web browser">
     <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
   <item label="File Manager">
-    <action name="Execute"><execute>pcmanfm</execute></action>
+    <action name="Execute"><execute>pcmanfm-qt</execute></action>
   </item>
-  <item label="Gnome Pie">
-    <action name="Execute"><execute>xdotool keydown alt key space keyup alt</execute></action>
+  <item label="Open Gnome Pie">
+    <action name="Execute"><execute>xdotool keydown alt key F1 keyup F1</execute></action>
+  </item>
+  <separator />
+  <item label="Launch Gnome Pie">
+    <action name="Execute"><execute>gnome-pie</execute></action>
+  </item>
+  <item label="Launch Picom">
+    <action name="Execute"><execute>picom</execute></action>
   </item>
   <!-- This requires the presence of the 'openbox-menu' package to work -->
-<menu id="/Debian" />
+<!--  <menu id="/Debian" />
   <separator />
-  <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/> 
+  <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/> -->
   <separator /> 
-  <item label="Configure Openbox">
+<!--  <item label="Configure Openbox">
     <action name="Execute"><execute>obconf</execute></action>
-  </item>
+  </item> -->
   <item label="Reconfigure Openbox">
     <action name="Reconfigure" />
   </item>
